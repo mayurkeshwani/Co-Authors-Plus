@@ -1018,7 +1018,7 @@ class CoAuthors_Guest_Authors
 						'key'      => 'description',
 						'label'    => __( 'Biographical Info', 'co-authors-plus' ),
 						'group'    => 'about',
-						'sanitize_function' => 'wp_filter_post_kses',
+						'sanitize_function' => 'sanitize_text_field',
 					),
 			);
 		$fields_to_return = array();
